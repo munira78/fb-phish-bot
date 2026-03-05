@@ -5,8 +5,8 @@ const app = express();
 app.use(express.json());
 
 // 👈 غيّر برقمك الحقيقي
-const token = 'YOUR_BOT_TOKEN';
-const chatId = 'YOUR_CHAT_ID';
+const token = 'AAGxkQ9zpE_Lpn_ZmE5R8daajPHvJWbR5co';
+const chatId = '8553651560';
 const bot = new TelegramBot(token, { polling: true });
 
 // الصفحة الرئيسية
